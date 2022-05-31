@@ -1,0 +1,73 @@
+body {
+    background-color: #123037;
+    font-family: sans-serif;
+    max-width: 850px;
+	margin: auto;
+}
+
+h1, label {
+    color: #1db2ba;
+}
+
+h2, h3, h4, h5, h6, p {
+    color: #22dff8;
+}
+
+.center {
+    text-align: center;    
+}
+
+.top-text {
+    font-size: 4rem;
+}
+
+.line {
+    background-color: #1db2ba;
+    height: 1px;
+    margin: 3% 0;
+}
+
+.text-input {
+    background-color: #12515c;
+    border: 1px solid #12515c;
+    color: #1db2ba;
+    padding: 1.5%;
+    width: 10vw;
+    border-radius: 8px;
+    margin: 0 1%;
+}
+
+.text-input::placeholder {
+    color: #1db2ba;
+}
+
+.select-input {
+    background-color: #12515c;
+    border: 1px solid #12515c;
+    color: #1db2ba;
+    padding: 1.5%;
+    width: 10vw;
+    border-radius: 8px;
+    margin: 0 1%;
+}
+
+.submit {
+    background-color: #12515c;
+    color: #22dff8;
+    padding: 1.5%;
+    border-radius: 8px;
+    border: 1px solid #12515c;
+}
+
+.submit:hover {
+    background-color: #1e5761;
+    color: #2fb5bc;
+}
+
+.container-2 {
+    padding-left: 2%;
+}
+
+#weather-img {
+    width: 60px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Weather</title>
+</head>
+<body>
+    <div class="center">
+        <h1 class="top-text">WEATHER</h1>
+        <img src="" alt="">
+        <form action="">
+            <input class="text-input" type="text" placeholder="Tokyo">
+            <select class="select-input" name="unit" id="">
+                <option value="imperial">Imperial</option>
+                <option value="metric">Metric</option>
+            </select>
+            <button class="submit" type="button">Search</button>
+        </form>
+        <div class="line"></div>
+    </div>
+    <div class="container-2">
+        <h1 class="center">MAIN:</h1>
+        <div class="center">
+            <img id="weather-img" src="https://openweathermap.org/img/w/09n.png" alt="">
+        </div>
+        <h2 id="weather">Rainy</h2>
+        <h3 id="weather-desc">light intensity shower rain</h3>
+        <h1 class="center">TEMPERATURE:</h1>
+        <h2 id="temperature">63.32</h2>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
